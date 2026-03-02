@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-username/cicd-python-api.git'
+                git 'https://github.com/Akash1738/CI-CD-Pipeline-for-a-Python-API-with-Jenkins.git'
             }
         }
 
