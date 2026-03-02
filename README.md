@@ -7,17 +7,11 @@ This project demonstrates a complete CI/CD pipeline for a simple Flask REST API,
 📌 Project Overview
 
 The pipeline automatically:
-
 Pulls source code from GitHub
-
 Installs dependencies
-
 Runs unit tests
-
 Builds a Docker image
-
 Deploys the application in a Docker container
-
 This project is ideal for DevOps beginners and CI/CD learning.
 
 ================================================================================================================================================================================================
@@ -35,15 +29,10 @@ docker run -d -p 5000:5000 cicd-pipeline
 🔁 Jenkins CI/CD Pipeline
 
 The Jenkinsfile defines the following stages:
-
 Checkout Code
-
 Install Dependencies
-
 Run Tests
-
 Build Docker Image
-
 Deploy Application
 
 =================================================================================================================================================================================================
@@ -51,13 +40,9 @@ Deploy Application
 ▶️ How to Run Jenkins Pipeline
 
 Install Jenkins on your server
-
 Install Docker on the Jenkins machine
-
 Create a new Pipeline Job
-
 Connect your GitHub repository
-
 Run the pipeline
 
 =================================================================================================================================================================================================
